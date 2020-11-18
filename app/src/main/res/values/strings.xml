@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Sample App</string>
+    <string name="click_twice">Click one more time to exit</string>
+    <string name="loading_dialog_loading_msg">Loading…</string>
+    <string name="no_internet_connection">Please check your internet connection</string>
+    <string name="an_error_has_occurred">An error has occurred</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+</resources>
