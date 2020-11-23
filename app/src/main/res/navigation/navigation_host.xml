@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_host_graph"
+    app:startDestination="@id/nav_ecommerce">
+
+    <action
+        android:id="@+id/nav_destination"
+        app:destination="@id/nav_ecommerce"/>
+
+    <fragment
+        android:id="@+id/nav_ecommerce"
+        android:label="@string/ecommerce"
+        android:name="com.ahmedzenhom.mysampleapp.ui.ecommerce.EcommerceFragment"
+        tools:layout="@layout/fragment_ecommerce"/>
+
+    <fragment
+        android:id="@+id/nav_posts"
+        android:label="@string/posts"
+        android:name="com.ahmedzenhom.mysampleapp.ui.posts.PostsFragment"
+        tools:layout="@layout/fragment_posts"/>
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:label="@string/chat"
+        android:name="com.ahmedzenhom.mysampleapp.ui.chat.ChatFragment"
+        tools:layout="@layout/fragment_chat"/>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:label="@string/profile"
+        android:name="com.ahmedzenhom.mysampleapp.ui.profile.ProfileFragment"
+        tools:layout="@layout/fragment_profile"/>
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:label="@string/settings"
+        android:name="com.ahmedzenhom.mysampleapp.ui.settings.SettingsFragment"
+        tools:layout="@layout/fragment_settings"/>
+</navigation>

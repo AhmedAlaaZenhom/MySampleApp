@@ -6,4 +6,9 @@
     <string name="an_error_has_occurred">An error has occurred</string>
     <string name="am">AM</string>
     <string name="pm">PM</string>
+    <string name="ecommerce">Ecommerce</string>
+    <string name="posts">Posts</string>
+    <string name="chat">Chat</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
 </resources>

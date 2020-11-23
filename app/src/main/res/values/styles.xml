@@ -36,4 +36,14 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#BFCED6</item>
+    </style>
+
+    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
 </resources>
